@@ -11,13 +11,15 @@ scanf("%d",&n);
 int fibonacci(int n)
 {
   int t1=0,t2=1;
-  int next=0;
+  int next=t1+t2;
   printf("%d%d",t1,t2);
   for(int i=3;i<=n;++i)
-   printf("%d",next);
+   {
+    printf("%d",next);
   t1=t2;
   t2=next;
   next=t1+t2;
+   }
 
 return 0;
 }
