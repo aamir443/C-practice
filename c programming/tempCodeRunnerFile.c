@@ -1,14 +1,7 @@
-#include<stdio.h>
-#include<stlib.h>
-struct stack{
-    int size;
-    int top;
-    int *arr;
-}
-int main(){
-    struct stack *s;
-     s->size=100;
-     s->top=-1;
-     s->arr=(int *)malloc(s->size *sizeof(int));
-     return 0;
-    }
+    // struct node* n=search(p,200);
+    // if(n!=NULL){
+    //     printf("Element is found %d",n->data);
+    // }
+    // else{
+    //     printf("element not found");
+    // }
